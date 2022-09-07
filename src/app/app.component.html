@@ -4,12 +4,12 @@
 
 </div>
 
+<h1>{{ coreCourse.description }}</h1>
 
 <div class="courses">
-  
-  <card></card>
-  <card></card>
-  <card></card>
-  <card></card>
+
+  <card [course]="coreCourse"></card>
+  <card [course]="rxjsCourse"></card>
+  <card [course]="ngrxCourse"></card>
 
 </div>
